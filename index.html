@@ -1,1065 +1,423 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Rilwan Atoyebi | Web Designer & Developer</title>
+    <meta
+        name="description"
+        content="Rilwan Atoyebi — ATOYEBI DEV, Web Developer and Designer specializing in responsive websites, WordPress and frontend development."
+    >
 
-  <meta
-    name="description"
-    content="Portfolio of Rilwan Atoyebi, a web designer and developer specializing in responsive websites, WordPress and frontend development."
-  >
+    <title>ATOYEBI DEV | Web Developer & Designer</title>
 
-  <link rel="stylesheet" href="style.css">
-
-  <!-- Font Awesome -->
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-  >
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <!-- ================= HEADER ================= -->
-  <header class="header" id="header">
-    <nav class="nav container">
+    <!-- ================= HEADER ================= -->
+    <header class="site-header">
+        <div class="container nav">
 
-      <a href="#home" class="logo">
-        ATOYS<span>.</span>
-      </a>
-
-      <div class="nav-menu" id="nav-menu">
-
-        <ul class="nav-list">
-          <li><a href="#home" class="nav-link active">Home</a></li>
-          <li><a href="#about" class="nav-link">About</a></li>
-          <li><a href="#skills" class="nav-link">Skills</a></li>
-          <li><a href="#services" class="nav-link">Services</a></li>
-          <li><a href="#projects" class="nav-link">Projects</a></li>
-          <li><a href="#experience" class="nav-link">Experience</a></li>
-          <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
-
-        <button class="nav-close" id="nav-close" aria-label="Close menu">
-          <i class="fa-solid fa-xmark"></i>
-        </button>
-
-      </div>
-
-      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-    </nav>
-  </header>
-
-
-  <main>
-
-    <!-- ================= HERO ================= -->
-    <section class="hero section" id="home">
-
-      <div class="hero-glow"></div>
-
-      <div class="container hero-container">
-
-        <div class="hero-content reveal">
-
-          <p class="eyebrow">
-            WEB DESIGNER • DEVELOPER
-          </p>
-
-          <h1>
-            I build websites
-            <span>people remember.</span>
-          </h1>
-
-          <p class="hero-text">
-            I'm Rilwan Atoyebi, a web designer and developer focused on
-            creating responsive, modern and practical websites for businesses,
-            brands and individuals.
-          </p>
-
-          <div class="hero-buttons">
-
-            <a href="#projects" class="btn btn-primary">
-              Explore My Work
-              <i class="fa-solid fa-arrow-right"></i>
+            <a href="#home" class="logo">
+                ATOYEBI<span>DEV</span>
             </a>
 
-            <a href="#contact" class="btn btn-secondary">
-              Hire Me
-            </a>
-
-          </div>
-
-          <div class="social-links">
-
-            <a
-              href="https://github.com/K9rado"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
+            <button
+                class="menu-toggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
             >
-              <i class="fa-brands fa-github"></i>
-            </a>
-
-            <a
-              href="https://www.linkedin.com/in/rilwan-atoyebi-170b59104/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="LinkedIn"
-            >
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-
-            <a
-              href="mailto:Atoyebidev@gmail.com"
-              aria-label="Email"
-            >
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-
-          </div>
-
-        </div>
-
-
-        <div class="hero-card reveal">
-
-          <div class="terminal">
-
-            <div class="terminal-header">
-
-              <div class="terminal-dots">
-                <span></span>
-                <span></span>
-                <span></span>
-              </div>
-
-              <span>atoys.dev</span>
-
-            </div>
-
-            <div class="terminal-body">
-
-              <p>
-                <span class="code-purple">const</span>
-                developer =
-                <span class="code-blue">{</span>
-              </p>
-
-              <p class="indent">
-                name:
-                <span class="code-orange">
-                  "Rilwan Atoyebi"
-                </span>,
-              </p>
-
-              <p class="indent">
-                role:
-                <span class="code-orange">
-                  "Web Developer"
-                </span>,
-              </p>
-
-              <p class="indent">
-                focus:
-                <span class="code-orange">
-                  "WordPress & Frontend"
-                </span>,
-              </p>
-
-              <p class="indent">
-                available:
-                <span class="code-green">
-                  true
-                </span>
-              </p>
-
-              <p>
-                <span class="code-blue">}</span>;
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <a href="#about" class="scroll-indicator">
-        <span>Scroll</span>
-        <i class="fa-solid fa-arrow-down"></i>
-      </a>
-
-    </section>
-
-
-    <!-- ================= ABOUT ================= -->
-    <section class="section about" id="about">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">ABOUT ME</p>
-
-          <h2>
-            Turning ideas into
-            <span>useful websites.</span>
-          </h2>
-
-        </div>
-
-
-        <div class="about-grid">
-
-          <div class="about-visual reveal">
-
-            <div class="about-number">
-              01
-            </div>
-
-            <div class="about-box">
-
-              <i class="fa-solid fa-code"></i>
-
-              <h3>
-                Design.
-                <br>
-                Develop.
-                <br>
-                Improve.
-              </h3>
-
-              <p>
-                One project at a time.
-              </p>
-
-            </div>
-
-          </div>
-
-
-          <div class="about-content reveal">
-
-            <p class="large-text">
-              I enjoy building websites that are not only visually appealing,
-              but also useful, responsive and easy to navigate.
-            </p>
-
-            <p>
-              My work combines frontend development, WordPress development
-              and practical web design. I work with technologies such as
-              HTML, CSS, JavaScript and PHP, while also using WordPress
-              to create websites that clients can manage easily.
-            </p>
-
-            <p>
-              I approach each project by first understanding the goal,
-              then designing a clear user experience and building the
-              interface around it.
-            </p>
-
-            <div class="about-details">
-
-              <div>
-                <span>Name</span>
-                <strong>Rilwan Atoyebi</strong>
-              </div>
-
-              <div>
-                <span>Specialization</span>
-                <strong>Web Design & Development</strong>
-              </div>
-
-              <div>
-                <span>Location</span>
-                <strong>Nigeria</strong>
-              </div>
-
-              <div>
-                <span>Availability</span>
-                <strong>Open to opportunities</strong>
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= SKILLS ================= -->
-    <section class="section skills" id="skills">
-
-      <div class="container">
-
-        <div class="section-heading center reveal">
-
-          <p class="eyebrow">MY TOOLKIT</p>
-
-          <h2>
-            Technologies I
-            <span>work with.</span>
-          </h2>
-
-          <p>
-            A practical technology stack for building responsive websites,
-            interfaces and digital products.
-          </p>
-
-        </div>
-
-
-        <div class="skills-grid">
-
-          <div class="skill-card reveal">
-            <i class="fa-brands fa-html5"></i>
-            <h3>HTML5</h3>
-            <p>
-              Semantic and well-structured websites built with clean HTML.
-            </p>
-          </div>
-
-          <div class="skill-card reveal">
-            <i class="fa-brands fa-css3-alt"></i>
-            <h3>CSS3</h3>
-            <p>
-              Responsive layouts, animations and modern interface styling.
-            </p>
-          </div>
-
-          <div class="skill-card reveal">
-            <i class="fa-brands fa-js"></i>
-            <h3>JavaScript</h3>
-            <p>
-              Interactive functionality and dynamic user experiences.
-            </p>
-          </div>
-
-          <div class="skill-card reveal">
-            <i class="fa-brands fa-wordpress"></i>
-            <h3>WordPress</h3>
-            <p>
-              Business websites, landing pages and customized WordPress builds.
-            </p>
-          </div>
-
-          <div class="skill-card reveal">
-            <i class="fa-brands fa-php"></i>
-            <h3>PHP</h3>
-            <p>
-              Server-side functionality and custom website development.
-            </p>
-          </div>
-
-          <div class="skill-card reveal">
-            <i class="fa-brands fa-github"></i>
-            <h3>Git & GitHub</h3>
-            <p>
-              Version control, project management and code collaboration.
-            </p>
-          </div>
-
-        </div>
-
-
-        <div class="tech-list reveal">
-
-          <span>Responsive Design</span>
-          <span>UI Design</span>
-          <span>Frontend Development</span>
-          <span>WordPress</span>
-          <span>PHP</span>
-          <span>JavaScript</span>
-          <span>Git</span>
-          <span>GitHub</span>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= SERVICES ================= -->
-    <section class="section services" id="services">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">WHAT I DO</p>
-
-          <h2>
-            How I can help
-            <span>your project.</span>
-          </h2>
-
-        </div>
-
-
-        <div class="services-grid">
-
-          <article class="service-card reveal">
-
-            <span class="service-number">01</span>
-
-            <i class="fa-solid fa-laptop-code"></i>
-
-            <h3>Website Development</h3>
-
-            <p>
-              Custom websites designed around your business goals,
-              audience and brand identity.
-            </p>
-
-            <ul>
-              <li>Responsive websites</li>
-              <li>Landing pages</li>
-              <li>Business websites</li>
-              <li>Frontend development</li>
-            </ul>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <span class="service-number">02</span>
-
-            <i class="fa-brands fa-wordpress"></i>
-
-            <h3>WordPress Development</h3>
-
-            <p>
-              Professional WordPress websites that are easy to update,
-              manage and grow.
-            </p>
-
-            <ul>
-              <li>WordPress setup</li>
-              <li>Theme customization</li>
-              <li>Business websites</li>
-              <li>Website maintenance</li>
-            </ul>
-
-          </article>
-
-
-          <article class="service-card reveal">
-
-            <span class="service-number">03</span>
-
-            <i class="fa-solid fa-pen-ruler"></i>
-
-            <h3>UI & Web Design</h3>
-
-            <p>
-              Clean and intuitive interfaces designed to make websites
-              easier for people to use.
-            </p>
-
-            <ul>
-              <li>Website redesign</li>
-              <li>Mobile-first design</li>
-              <li>UI improvements</li>
-              <li>Visual consistency</li>
-            </ul>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= PROJECTS ================= -->
-    <section class="section projects" id="projects">
-
-      <div class="container">
-
-        <div class="section-heading center reveal">
-
-          <p class="eyebrow">SELECTED WORK</p>
-
-          <h2>
-            Projects that show
-            <span>what I can build.</span>
-          </h2>
-
-          <p>
-            A selection of concepts and development projects across
-            websites, interfaces and digital products.
-          </p>
-
-        </div>
-
-
-        <div class="projects-grid">
-
-          <article class="project-card reveal">
-
-            <div class="project-preview project-one">
-
-              <div class="project-code">
-                &lt;website /&gt;
-              </div>
-
-              <a href="#" class="project-view">
-                View Project
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-
-            </div>
-
-            <div class="project-info">
-
-              <p class="project-type">
-                WEB DEVELOPMENT
-              </p>
-
-              <h3>Business Website</h3>
-
-              <p>
-                A responsive website concept focused on clear navigation,
-                strong presentation and mobile usability.
-              </p>
-
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-
-            </div>
-
-          </article>
-
-
-          <article class="project-card reveal">
-
-            <div class="project-preview project-two">
-
-              <div class="project-code">
-                WP
-              </div>
-
-              <a href="#" class="project-view">
-                View Project
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-
-            </div>
-
-            <div class="project-info">
-
-              <p class="project-type">
-                WORDPRESS
-              </p>
-
-              <h3>WordPress Business Site</h3>
-
-              <p>
-                A CMS-based website concept designed so businesses can
-                manage their content without editing code.
-              </p>
-
-              <div class="project-tags">
-                <span>WordPress</span>
-                <span>PHP</span>
-                <span>CSS</span>
-              </div>
-
-            </div>
-
-          </article>
-
-
-          <article class="project-card reveal">
-
-            <div class="project-preview project-three">
-
-              <div class="project-code">
-                MUSIC
-              </div>
-
-              <a href="#" class="project-view">
-                View Project
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-
-            </div>
-
-            <div class="project-info">
-
-              <p class="project-type">
-                WEB APP
-              </p>
-
-              <h3>Music Platform</h3>
-
-              <p>
-                A dark-themed music platform concept for discovering,
-                uploading and managing music content.
-              </p>
-
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>PHP</span>
-              </div>
-
-            </div>
-
-          </article>
-
-
-          <article class="project-card reveal">
-
-            <div class="project-preview project-four">
-
-              <div class="project-code">
-                SHOP
-              </div>
-
-              <a href="#" class="project-view">
-                View Project
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              </a>
-
-            </div>
-
-            <div class="project-info">
-
-              <p class="project-type">
-                E-COMMERCE
-              </p>
-
-              <h3>Online Store Interface</h3>
-
-              <p>
-                A modern shopping interface focused on product presentation,
-                navigation and responsive design.
-              </p>
-
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
-
-            </div>
-
-          </article>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= EXPERIENCE ================= -->
-    <section class="section experience" id="experience">
-
-      <div class="container">
-
-        <div class="section-heading reveal">
-
-          <p class="eyebrow">MY JOURNEY</p>
-
-          <h2>
-            Experience,
-            <span>learning & growth.</span>
-          </h2>
-
-        </div>
-
-
-        <div class="timeline">
-
-          <div class="timeline-item reveal">
-
-            <span class="timeline-dot"></span>
-
-            <div class="timeline-content">
-
-              <span class="timeline-label">
-                WEB DEVELOPMENT
-              </span>
-
-              <h3>
-                Web Designer & Developer
-              </h3>
-
-              <p>
-                Developing responsive websites and interfaces using
-                frontend technologies, WordPress and backend tools.
-              </p>
-
-              <div class="timeline-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-                <span>WordPress</span>
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <div class="timeline-item reveal">
-
-            <span class="timeline-dot"></span>
-
-            <div class="timeline-content">
-
-              <span class="timeline-label">
-                PROJECT DEVELOPMENT
-              </span>
-
-              <h3>
-                Personal & Freelance Projects
-              </h3>
-
-              <p>
-                Building practical websites and applications to improve
-                development skills and create solutions for real-world needs.
-              </p>
-
-              <div class="timeline-tags">
-                <span>PHP</span>
-                <span>JavaScript</span>
-                <span>GitHub</span>
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <div class="timeline-item reveal">
-
-            <span class="timeline-dot"></span>
-
-            <div class="timeline-content">
-
-              <span class="timeline-label">
-                EDUCATION
-              </span>
-
-              <h3>
-                Pharmacology
-              </h3>
-
-              <p>
-                Academic training that strengthened research, analytical
-                thinking, attention to detail and problem-solving skills.
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= CTA ================= -->
-    <section class="section cta">
-
-      <div class="container">
-
-        <div class="cta-box reveal">
-
-          <p class="eyebrow">
-            HAVE A PROJECT?
-          </p>
-
-          <h2>
-            Let's turn your idea
-            <span>into a website.</span>
-          </h2>
-
-          <p>
-            Tell me what you're building and let's figure out
-            the best way to bring it online.
-          </p>
-
-          <a href="#contact" class="btn btn-primary">
-            Start a Conversation
-            <i class="fa-solid fa-arrow-right"></i>
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- ================= CONTACT ================= -->
-    <section class="section contact" id="contact">
-
-      <div class="container">
-
-        <div class="section-heading center reveal">
-
-          <p class="eyebrow">CONTACT</p>
-
-          <h2>
-            Let's work on
-            <span>something useful.</span>
-          </h2>
-
-          <p>
-            Have a project, job opportunity or idea?
-            I'd be happy to hear from you.
-          </p>
-
-        </div>
-
-
-        <div class="contact-grid">
-
-          <div class="contact-details reveal">
-
-            <div class="contact-item">
-
-              <div class="contact-icon">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-
-              <div>
-                <span>Email</span>
-                <a href="mailto:Atoyebidev@gmail.com">
-                  Atoyebidev@gmail.com
-                </a>
-              </div>
-
-            </div>
-
-
-            <div class="contact-item">
-
-              <div class="contact-icon">
-                <i class="fa-solid fa-phone"></i>
-              </div>
-
-              <div>
-                <span>Phone</span>
-                <a href="tel:+2348167156994">
-                  +234 816 715 6994
-                </a>
-              </div>
-
-            </div>
-
-
-            <div class="contact-item">
-
-              <div class="contact-icon">
-                <i class="fa-brands fa-github"></i>
-              </div>
-
-              <div>
-                <span>GitHub</span>
-                <a
-                  href="https://github.com/K9rado"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  github.com/K9rado
-                </a>
-              </div>
-
-            </div>
-
-
-            <div class="contact-item">
-
-              <div class="contact-icon">
-                <i class="fa-brands fa-linkedin-in"></i>
-              </div>
-
-              <div>
-                <span>LinkedIn</span>
-                <a
-                  href="https://www.linkedin.com/in/rilwan-atoyebi-170b59104/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  LinkedIn Profile
-                </a>
-              </div>
-
-            </div>
-
-          </div>
-
-
-          <form class="contact-form reveal" id="contact-form">
-
-            <div class="form-row">
-
-              <div class="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Your name"
-                  required
-                >
-              </div>
-
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your email"
-                  required
-                >
-              </div>
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="subject">Subject</label>
-
-              <input
-                type="text"
-                id="subject"
-                name="subject"
-                placeholder="What is this about?"
-                required
-              >
-
-            </div>
-
-
-            <div class="form-group">
-
-              <label for="message">Message</label>
-
-              <textarea
-                id="message"
-                name="message"
-                rows="7"
-                placeholder="Tell me about your project..."
-                required
-              ></textarea>
-
-            </div>
-
-
-            <button type="submit" class="btn btn-primary">
-              Send Message
-              <i class="fa-solid fa-paper-plane"></i>
+                ☰
             </button>
 
-            <p class="form-message" id="form-message"></p>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-          </form>
+        </div>
+    </header>
+
+
+    <!-- ================= MAIN ================= -->
+    <main>
+
+        <!-- HERO -->
+        <section id="home" class="hero container">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    WEB DEVELOPER • DESIGNER • WORDPRESS
+                </p>
+
+                <h1>
+                    Building the web
+                    <span>with purpose.</span>
+                </h1>
+
+                <p class="hero-text">
+                    I'm Rilwan Atoyebi, a web developer focused on
+                    clean, responsive and modern digital experiences
+                    using frontend technologies, WordPress and practical PHP.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a href="#projects" class="btn primary">
+                        View Projects
+                    </a>
+
+                    <a href="#contact" class="btn secondary">
+                        Contact Me
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card glass">
+
+                <div class="avatar">
+                    A
+                </div>
+
+                <h2>
+                    ATOYEBI DEV
+                </h2>
+
+                <p>
+                    Creative developer turning ideas into functional
+                    and modern digital experiences.
+                </p>
+
+                <div class="status">
+                    <span></span>
+                    Available for opportunities
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+        <section id="about" class="section container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    Developer with a practical mindset.
+                </h2>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="glass about-card">
+
+                    <p>
+                        I am Rilwan Atoyebi, a web developer and designer
+                        with a strong interest in building responsive
+                        websites, modern user interfaces and WordPress solutions.
+                    </p>
+
+                    <p>
+                        I enjoy solving practical problems with clean code
+                        and creating digital products that are easy to use,
+                        maintain and improve.
+                    </p>
+
+                </div>
+
+
+                <div class="glass facts">
+
+                    <div>
+                        <strong>Frontend</strong>
+                        <span>
+                            HTML, CSS, JavaScript, React
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>CMS</strong>
+                        <span>
+                            WordPress
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>Backend</strong>
+                        <span>
+                            PHP Basics
+                        </span>
+                    </div>
+
+                    <div>
+                        <strong>Workflow</strong>
+                        <span>
+                            Git & GitHub
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    SKILLS
+                </p>
+
+                <h2>
+                    Tools I work with.
+                </h2>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>PHP Basics</span>
+                <span>WordPress</span>
+                <span>Kotlin</span>
+                <span>Responsive Design</span>
+                <span>UI Design</span>
+                <span>Git & GitHub</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section container">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    PROJECTS
+                </p>
+
+                <h2>
+                    Selected work.
+                </h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+                <article class="project glass">
+
+                    <span class="project-number">
+                        01
+                    </span>
+
+                    <h3>
+                        Modern Storefront
+                    </h3>
+
+                    <p>
+                        A responsive ecommerce-style interface
+                        focused on clean product presentation
+                        and user experience.
+                    </p>
+
+                    <a
+                        href="https://github.com/k9rado"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View on GitHub ↗
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 2 -->
+                <article class="project glass">
+
+                    <span class="project-number">
+                        02
+                    </span>
+
+                    <h3>
+                        Music Web Platform
+                    </h3>
+
+                    <p>
+                        A music-focused web concept for uploading,
+                        listing and interacting with audio content.
+                    </p>
+
+                    <a
+                        href="https://github.com/k9rado"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View on GitHub ↗
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 3 -->
+                <article class="project glass">
+
+                    <span class="project-number">
+                        03
+                    </span>
+
+                    <h3>
+                        Airdrop Dashboard
+                    </h3>
+
+                    <p>
+                        A dashboard concept with user credits,
+                        account data and a clean mobile-friendly interface.
+                    </p>
+
+                    <a
+                        href="https://github.com/k9rado"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View on GitHub ↗
+                    </a>
+
+                </article>
+
+
+                <!-- PROJECT 4 -->
+                <article class="project glass">
+
+                    <span class="project-number">
+                        04
+                    </span>
+
+                    <h3>
+                        Data Plan Menu
+                    </h3>
+
+                    <p>
+                        A simple telecom-style interface demonstrating
+                        menu navigation and responsive UI development.
+                    </p>
+
+                    <a
+                        href="https://github.com/k9rado"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        View on GitHub ↗
+                    </a>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section container contact-section">
+
+            <div class="glass contact-card">
+
+                <p class="eyebrow">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Have a project or opportunity?
+                </h2>
+
+                <p>
+                    I'm open to web development, WordPress
+                    and frontend opportunities.
+                </p>
+
+
+                <div class="contact-links">
+
+                    <a href="mailto:Atoyebidev@gmail.com">
+                        Atoyebidev@gmail.com
+                    </a>
+
+                    <a href="tel:+2348167156994">
+                        +234 816 715 6994
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/in/rilwan-atoyebi-170591b04"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LinkedIn ↗
+                    </a>
+
+                    <a
+                        href="https://github.com/k9rado"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="container footer-inner">
+
+            <span>
+                © 2026 ATOYEBI DEV
+            </span>
+
+            <span>
+                Built with HTML, CSS & JavaScript.
+            </span>
 
         </div>
 
-      </div>
-
-    </section>
-
-  </main>
+    </footer>
 
 
-  <!-- ================= FOOTER ================= -->
-  <footer class="footer">
-
-    <div class="container footer-top">
-
-      <div>
-
-        <a href="#home" class="logo">
-          ATOYS<span>.</span>
-        </a>
-
-        <p>
-          Web Designer & Developer creating useful digital experiences.
-        </p>
-
-      </div>
-
-
-      <div class="footer-socials">
-
-        <a
-          href="https://github.com/K9rado"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-github"></i>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/rilwan-atoyebi-170b59104/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i class="fa-brands fa-linkedin-in"></i>
-        </a>
-
-        <a href="mailto:Atoyebidev@gmail.com">
-          <i class="fa-solid fa-envelope"></i>
-        </a>
-
-      </div>
-
-    </div>
-
-
-    <div class="footer-bottom">
-
-      <p>
-        © <span id="year"></span> ATOYS. All rights reserved.
-      </p>
-
-    </div>
-
-  </footer>
-
-
-  <button
-    class="back-top"
-    id="back-top"
-    aria-label="Back to top"
-  >
-    <i class="fa-solid fa-arrow-up"></i>
-  </button>
-
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
-```
